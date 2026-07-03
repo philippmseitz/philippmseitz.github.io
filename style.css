@@ -1,0 +1,56 @@
+h1{text-align: center;
+color: blue;
+font-size: 32px;
+font-family: Helvetica, sans-serif;
+}
+
+p{text-align: center;
+font-size: 12px;
+background-color: black;
+color:white;
+margin: 40px;
+padding: 10px;
+border: 2px solid red;
+border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+    margin-bottom: 70px;
+    margin-top: 10px;
+    background: white;
+    color: black;
+}
+
+.me2{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+#mainheader{
+    font-size: 40px;
+    color: green;
+    background: yellow;
+}
+
+#firstpart{
+    background: black;
+    border: 2px solid yellow;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+#secondpart{
+    background: darkblue;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+#thirdpart{
+    background: darkgreen;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 10px;
+}
