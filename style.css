@@ -2,6 +2,7 @@ h1{text-align: center;
 color: blue;
 font-size: 32px;
 font-family: Helvetica, sans-serif;
+letter-spacing: 2px;
 }
 
 p{text-align: center;
@@ -13,6 +14,11 @@ padding: 10px;
 border: 2px solid red;
 border-radius: 10px;
 font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /*background: linear-gradient(to right, #ff6b6b, #4ecdc4);*/
+    background: linear-gradient(125deg, white 60%, lightblue 100%);
 }
 
 .intro{
@@ -46,6 +52,8 @@ font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
     margin: 40px;
     border-radius: 10px;
+    line-height: 1.5;
+
 }
 
 #thirdpart{
@@ -53,4 +61,88 @@ font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
     margin: 40px;
     border-radius: 10px;
+    font-weight: 900;
+
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+/*flex-direction: row, column; align-iteams: center, stretch*/
+
+.projects2{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex-wrap: wrap; justify-content: flex-start, center, space-between, space-around*/
+
+div{
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.projects2 div{
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.projects2 div:hover{
+    transform: scale(1.05);
+    background-color: lightblue;
+}
+
+.pictures{ /*gesamter container*/
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.pictures img{ /*alle img in .pictures*/
+    width: 200px;
+    height: auto;
+    border: none;
+}
+
+.navigation{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navigation a{
+    color: black;
+    text-decoration: none; 
+    background-color: lightgrey;
+    transition: 5s;
+}
+
+.navigation a:hover{
+    color: green;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+li{
+    background-color: lightgray;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;  /* legt es HINTER den normalen Inhalt */
+    width: 100%;
 }
